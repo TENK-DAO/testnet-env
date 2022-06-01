@@ -1,7 +1,7 @@
 {
   "viewIn": "View in English",
   "langPicker": "English",
-  "title": "Cool NFT Project",
+  "title": "Testnet ENV",
   "description": "This is the minting page for Cool NFT Project",
   "calendarEvent": "Go Mint an NFT!",
   "connectWallet": "Login with NEAR",
@@ -14,7 +14,7 @@
   "zoomIn": "Zoom In",
   "zoomOut": "Zoom Out",
   "hero": {
-    "video": "3d_toys_playground.mp4",
+    "image": "tenk-1.png",
     "title": "NFTs drop at SALE_START!",
     "body": "Tagline goes here.",
     "remaining": "REMAINING_COUNT / INITIAL_COUNT left",
@@ -59,12 +59,5 @@
       "cta": "Buy on Marketplace",
       "action": "GO_TO_PARAS"
     }
-  },
-  "extraSections": [
-    {
-      "className": "this-class-is-set-in-i18n-files",
-      "text": "# Introducing Cool NFT Project\n\nThis is a longer description of the project. About a paragraph long. Some [filler text](https://placehodler.shapelabs.co/) to demonstrate: Token standard surrendered some burned mnemonic phrase until some wallet because blockchain detected many pre-mine. It based on many automated token generation event, and when Tether formed some trustless in the FUD, Dogecoin slept on lots of anti-money laundering of many stale block!\n\nSolidity limited lots of reinvested distributed denial of service attack! ICO specialises in lots of lightning fast private chain since Zilliqa surrendered few reinvested cryptocurrency, however, because someone limited few provably fiat until the vanity address, Augur stuck many burned pre-mine. They sharded many technical analysis, or NFT specialises in the FOMO in few wash trade.",
-      "image": "example.png"
-    }
-  ]
+  }
 }
