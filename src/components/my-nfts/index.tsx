@@ -80,7 +80,7 @@ const MyNFTs: React.FC<{
                 <div/>
                 <span className="visually-hidden">{nft.metadata?.description}</span>
                 <footer>
-                <span className={css.chip}>#{nft.token_id}</span>
+                  <span className={css.chip}>#{nft.token_id}</span>
                   {highlight?.includes(nft.token_id) && (
                     <span className={css.highlight}>{locale.new}</span>
                   )}
