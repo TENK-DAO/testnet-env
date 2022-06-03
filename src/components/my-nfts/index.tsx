@@ -71,7 +71,7 @@ const MyNFTs: React.FC<{
               <button
                 key={nft.token_id}
                 className={css.nft}
-                style={{ backgroundImage: `url("${nft?.media}")` }}
+                style={{ backgroundImage: `url("${nft?.media}")`, backgroundRepeat: "no-repeat", backgroundSize: "contain" }}
                 onClick={() => {
                   setPhotoIndex(index)
                   setLightboxOpen(true)
@@ -80,7 +80,7 @@ const MyNFTs: React.FC<{
                 <div/>
                 <span className="visually-hidden">{nft.metadata?.description}</span>
                 <footer>
-                  <span className={css.chip}>#{nft.token_id}</span>
+                  <span className={css.chip}>Ribity #{nft.token_id}</span>
                   {highlight?.includes(nft.token_id) && (
                     <span className={css.highlight}>{locale.new}</span>
                   )}
@@ -93,7 +93,7 @@ const MyNFTs: React.FC<{
       {lightboxOpen && (
         <Lightbox
           mainSrc={nfts[photoIndex].media}
-          imageTitle={`#${nfts[photoIndex].metadata?.title}`}
+          imageTitle={`Ribity #${nfts[photoIndex].metadata?.title}`}
           imageCaption={nfts[photoIndex].metadata?.description}
           nextLabel={locale.nextNFT}
           prevLabel={locale.prevNFT}
